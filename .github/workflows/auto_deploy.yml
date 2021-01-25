@@ -39,4 +39,4 @@ jobs:
       - name: Surge Installation
         run: npm install --global surge
       - name: Deployment
-        run: surge ./build http://expense-tracker-app-dexcoder.surge.sh/ --token ${{secrets.}}
+        run: surge ./build http://expense-tracker-app-dexcoder.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
